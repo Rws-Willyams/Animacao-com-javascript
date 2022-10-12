@@ -1,0 +1,41 @@
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+
+    height:100%;
+}
+
+.conteudo{
+
+    text-align:center;
+    padding:20px;
+}
+
+.conteudo p{
+    
+    padding:60px 0;
+    width:100%;
+    max-width:500px;
+    text-align:justify;
+    margin:10px auto;
+    overflow: hidden;
+    height:8px;
+    transition:2s;
+}
+
+.conteudo h2 span{
+
+    cursor:pointer;
+    font-size:15px;
+}
+
+.mostrar{
+
+    height:200px !important;
+}
